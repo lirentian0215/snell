@@ -16,7 +16,7 @@ echo -e "[snell-server]
 listen = ::0:port
 psk = $password
 ipv6 = true" > snell-server.conf
-echo -e "version: '3.8'
+echo -e "version: '4.0.1'
 services:
 
   snell:
