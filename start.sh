@@ -21,4 +21,4 @@ EOF
 
 echo "generated, starting snell-server..."
 exec /etc/snell-server/snell-server -c /snell/snell-server.conf
-cat $PWD/snell/snell-server.conf
+cat $PWD/etc/snell-server/snell-server.conf
